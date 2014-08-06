@@ -56,10 +56,10 @@
     </script>
 
    <div id="two_id" style="display:none">
-		<iframe src="https://gwin-news.appspot.com/gadget/news?topic=1"></iframe>
+		<iframe width="500" height="300" scrolling="no" style="border:none" src="https://gwin-news.appspot.com/gadget/news?topic=1"></iframe>
    </div>
    <div id="three_id" style="display:none">
-		<iframe src="https://gwin-news.appspot.com/gadget/news?tag=1"></iframe>
+		<iframe width="500" height="300" scrolling="no" style="border:none" src="https://gwin-news.appspot.com/gadget/news?tag=1"></iframe>
    </div>
   ]]>
   </Content>
