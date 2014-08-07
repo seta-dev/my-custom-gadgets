@@ -5,7 +5,52 @@
   </ModulePrefs>
   <Content type="html">
   <![CDATA[
-
+	 <style type="text/css">
+	   .tablib_table {
+		  width: 100%;
+		  border-collapse: separate;
+		  border-spacing: 0px;
+		  empty-cells: show;
+		  font-size: 11px;
+		  text-align: center;
+		}
+		.tablib_emptyTab {
+		  border-bottom: 1px solid #676767;
+		  padding: 0px 1px;
+		}
+		.tablib_spacerTab {
+		  border-bottom: 1px solid #676767;
+		  padding: 0px 1px;
+		  width: 1px;
+		}
+		.tablib_selected {
+		  padding: 2px 0px;
+		  background-color: #ffffff;
+		  border: 1px solid #676767;
+		  border-bottom-width: 0px;
+		  color: #3366cc;
+		  font-weight: bold;
+		  width: 80px;
+		  cursor: default;
+		}
+		.tablib_unselected {
+		  padding: 2px 0px;
+		  background-color: #dddddd;
+		  border: 1px solid #aaaaaa;
+		  border-bottom-color: #676767;
+		  color: #000000;
+		  width: 80px;
+		  cursor: pointer;
+		}
+		.tablib_navContainer {
+		  width: 10px;
+		  vertical-align: middle;
+		}
+		.tablib_navContainer a:link, .tablib_navContainer a:visited, .tablib_navContainer a:hover {
+		  color: #3366aa;
+		  text-decoration: none;
+		}
+	  </style>
     <script type="text/javascript">
     // Initialize tabs, designate the tab named "Two" as
     // the tab selected by default.
@@ -28,7 +73,7 @@
     gadgets.util.registerOnLoadHandler(init);
     </script>
 
-   <div id="two_id" style="display:none; color: red; font-weight: bold; background-color:#ccf;">
+   <div id="two_id" style="display:none">
 		<iframe width="500" height="300" scrolling="no" style="border:none" src="https://gwin-news.appspot.com/gadget/news?topic=1"></iframe>
    </div>
    <div id="three_id" style="display:none">
