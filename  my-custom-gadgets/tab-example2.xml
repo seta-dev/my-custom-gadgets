@@ -28,7 +28,7 @@
     gadgets.util.registerOnLoadHandler(init);
     </script>
 
-   <div id="two_id" style="display:none">
+   <div id="two_id" style="display:none; color: red; font-weight: bold; background-color:#ccf;">
 		<iframe width="500" height="300" scrolling="no" style="border:none" src="https://gwin-news.appspot.com/gadget/news?topic=1"></iframe>
    </div>
    <div id="three_id" style="display:none">
