@@ -72,6 +72,8 @@
 		tabs.addTab("Tab three", {
            contentContainer: document.getElementById("three_id")
         });
+		
+		tabs.setSelectedTab(1);
 
     }
 
