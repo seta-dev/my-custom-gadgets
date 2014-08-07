@@ -28,7 +28,7 @@
 		  background-color: green;
 		  border: 1px solid #676767;
 		  border-bottom-width: 0px;
-		  color: #3366cc;
+		  color: red;
 		  font-weight: bold;
 		  width: 80px;
 		  cursor: default;
