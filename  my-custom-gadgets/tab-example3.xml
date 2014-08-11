@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Module>
+  <ModulePrefs title="Tabs Demo" height="140" scrolling="true" >
+    <Require feature="tabs" />
+  </ModulePrefs>
+  <Content type="html">
+  <![CDATA[
+	<style type="text/css">
+	   .tablib_table {
+		  width: 100%;
+		  border-collapse: separate;
+		  border-spacing: 0px;
+		  empty-cells: show;
+		  font-size: 11px;
+		  text-align: center;
+		}
+		.tablib_emptyTab {
+		  border-bottom: 1px solid #676767;
+		  padding: 0px 1px;
+		}
+		.tablib_spacerTab {
+		  border-bottom: 1px solid #676767;
+		  padding: 0px 1px;
+		  width: 1px;
+		}
+		.tablib_selected {
+		  padding: 2px 0px;
+		  background-color: green;
+		  border: 1px solid #676767;
+		  border-bottom-width: 0px;
+		  color: red;
+		  font-weight: bold;
+		  width: 80px;
+		  cursor: default;
+		}
+		.tablib_unselected {
+		  padding: 2px 0px;
+		  background-color: #dddddd;
+		  border: 1px solid #aaaaaa;
+		  border-bottom-color: #676767;
+		  color: #000000;
+		  width: 80px;
+		  cursor: pointer;
+		}
+		.tablib_navContainer {
+		  width: 10px;
+		  vertical-align: middle;
+		}
+		.tablib_navContainer a:link, .tablib_navContainer a:visited, .tablib_navContainer a:hover {
+		  color: #3366aa;
+		  text-decoration: none;
+		}
+	</style>
+	
+    <script type="text/javascript">
+    // Initialize tabs, designate the tab named "Two" as
+    // the tab selected by default.
+    var tabs = new gadgets.TabSet(__MODULE_ID__, "Two");
+    function init() {
+		// Technique #1: Capture the tab's ID when you create it, and use the ID
+        // to add content to the tab's corresponding <div>.
+        var one_Id = tabs.addTab('<div style="color: red; font-weight: bold; background-color:#ccf;">Tab One</div>');
+        document.getElementById(one_Id).innerHTML = "Content for tab One.";
+		
+        // Technique #2: Create the tab and define a corresponding <div> in the
+        // HTML portion of the gadget. Add static content to the <div>.
+
+        tabs.addTab("Tab two", {
+           contentContainer: document.getElementById("two_id")
+        });
+		
+		tabs.addTab("Tab three", {
+           contentContainer: document.getElementById("three_id")
+        });
+		
+		tabs.setSelectedTab(1);
+
+    }
+
+    // Call init function to initialize and display tabs.
+    gadgets.util.registerOnLoadHandler(init);
+    </script>
+
+   <div id="two_id" style="display:none">
+		<iframe width="500" height="300" scrolling="no" style="border:none; background-color:pink;" src="https://gwin-news.appspot.com/gadget/news?topic=1"></iframe>
+   </div>
+   <div id="three_id" style="display:none">
+		<iframe width="500" height="300" scrolling="no" style="border:none; background-color:pink;" src="https://gwin-news.appspot.com/gadget/news?tag=1"></iframe>
+   </div>
+  ]]>
+  </Content>
+</Module>
