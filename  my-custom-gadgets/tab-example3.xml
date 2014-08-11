@@ -73,7 +73,7 @@
            contentContainer: document.getElementById("three_id")
         });
 		
-		tabs.setSelectedTab(1);
+		tabs.setSelectedTab(0);
 
     }
 
