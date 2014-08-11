@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <Module>
-  <ModulePrefs title="Tabs Demo" height="140" scrolling="true" >
+  <ModulePrefs title="Tabs Demo" height="300" scrolling="true" >
     <Require feature="tabs" />
   </ModulePrefs>
   <Content type="html">
