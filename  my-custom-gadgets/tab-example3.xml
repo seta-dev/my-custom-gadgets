@@ -65,7 +65,7 @@
         // Technique #2: Create the tab and define a corresponding <div> in the
         // HTML portion of the gadget. Add static content to the <div>.
 
-        tabs.addTab("Tab two", {
+        tabs.addTab("Ranking", {
            contentContainer: document.getElementById("two_id")
         });
 		
@@ -82,7 +82,7 @@
     </script>
 
    <div id="two_id" style="display:none">
-		<iframe width="500" height="300" scrolling="no" style="border:none; background-color:pink;" src="https://still-entity-328.appspot.com/rank"></iframe>
+		<iframe width="500" height="300"  style="border:none; background-color:pink;" src="https://still-entity-328.appspot.com/rank"></iframe>
    </div>
    <div id="three_id" style="display:none">
 		<iframe width="500" height="300" scrolling="no" style="border:none; background-color:pink;" src="https://gwin-news.appspot.com/gadget/news?tag=1"></iframe>
