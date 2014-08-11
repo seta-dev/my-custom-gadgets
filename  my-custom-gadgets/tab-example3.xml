@@ -82,10 +82,10 @@
     </script>
 
    <div id="two_id" style="display:none">
-		<iframe width="500" height="250px"  style="border:none;" src="https://still-entity-328.appspot.com/rank"></iframe>
+		<iframe width="500" height="250"  style="border:none;" src="https://still-entity-328.appspot.com/rank"></iframe>
    </div>
    <div id="three_id" style="display:none">
-		<iframe width="500" height="250px" style="border:none;" src="https://gwin-news.appspot.com/gadget/news?tag=1"></iframe>
+		<iframe width="500" height="250" style="border:none;" src="https://gwin-news.appspot.com/gadget/news?tag=1"></iframe>
    </div>
   ]]>
   </Content>
