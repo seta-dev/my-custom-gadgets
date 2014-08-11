@@ -59,8 +59,8 @@
     function init() {
 		// Technique #1: Capture the tab's ID when you create it, and use the ID
         // to add content to the tab's corresponding <div>.
-        var one_Id = tabs.addTab('<div style="color: red; font-weight: bold; background-color:#ccf;">Tab One</div>');
-        document.getElementById(one_Id).innerHTML = "Content for tab One.";
+        //var one_Id = tabs.addTab('<div style="color: red; font-weight: bold; background-color:#ccf;">Tab One</div>');
+        //document.getElementById(one_Id).innerHTML = "Content for tab One.";
 		
         // Technique #2: Create the tab and define a corresponding <div> in the
         // HTML portion of the gadget. Add static content to the <div>.
@@ -69,7 +69,7 @@
            contentContainer: document.getElementById("two_id")
         });
 		
-		tabs.addTab("Tab three", {
+		tabs.addTab("「リリース」タグに紐付く記事を表示する", {
            contentContainer: document.getElementById("three_id")
         });
 		
@@ -85,7 +85,7 @@
 		<iframe width="500" height="300"  style="border:none; background-color:pink;" src="https://still-entity-328.appspot.com/rank"></iframe>
    </div>
    <div id="three_id" style="display:none">
-		<iframe width="500" height="300" scrolling="no" style="border:none; background-color:pink;" src="https://gwin-news.appspot.com/gadget/news?tag=1"></iframe>
+		<iframe width="500" height="300" style="border:none; background-color:pink;" src="https://gwin-news.appspot.com/gadget/news?tag=1"></iframe>
    </div>
   ]]>
   </Content>
