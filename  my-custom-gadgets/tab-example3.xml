@@ -73,6 +73,14 @@
            contentContainer: document.getElementById("three_id")
         });
 		
+		tabs.addTab("「Tab-3」", {
+           contentContainer: document.getElementById("four_id")
+        });
+		
+		tabs.addTab("「Tab-4」", {
+           contentContainer: document.getElementById("five_id")
+        });
+		
 		tabs.setSelectedTab(0);
 
     }
@@ -87,6 +95,15 @@
    <div id="three_id" style="display:none">
 		<iframe width="500" height="250" style="border:none;" src="https://gwin-news.appspot.com/gadget/news?tag=1"></iframe>
    </div>
+   
+   <div id="four_id" style="display:none">
+		<iframe width="500" height="250" style="border:none;" src="https://gwin-news.appspot.com/gadget/news?tag=1"></iframe>
+   </div>
+   
+   <div id="five_id" style="display:none">
+		<iframe width="500" height="250" style="border:none;" src="https://gwin-news.appspot.com/gadget/news?tag=1"></iframe>
+   </div>
+   
   ]]>
   </Content>
 </Module>
