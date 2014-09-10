@@ -65,19 +65,19 @@
         // Technique #2: Create the tab and define a corresponding <div> in the
         // HTML portion of the gadget. Add static content to the <div>.
 
-        tabs.addTab("リリース", {
+        tabs.addTab("かわります", {
            contentContainer: document.getElementById("two_id")
         });
 		
-		tabs.addTab("かわること", {
+		tabs.addTab("かわりました", {
            contentContainer: document.getElementById("three_id")
         });
 		
-		tabs.addTab("福利厚生", {
+		tabs.addTab("おわります", {
            contentContainer: document.getElementById("four_id")
         });
 		
-		tabs.addTab("確認事項", {
+		tabs.addTab(".くりかえす", {
            contentContainer: document.getElementById("five_id")
         });
 		
