@@ -77,7 +77,7 @@
            contentContainer: document.getElementById("four_id")
         });
 		
-		tabs.addTab(".くりかえす", {
+		tabs.addTab("くりかえす", {
            contentContainer: document.getElementById("five_id")
         });
 		
