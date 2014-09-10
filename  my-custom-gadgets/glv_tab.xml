@@ -26,9 +26,9 @@
 		.tablib_selected {
 		  padding: 2px 0px;
 		  background-color: #008851;
-		  border: 1px solid ##ffffff;
+		  border: 1px solid #676767;
 		  border-bottom-width: 0px;
-		  color: red;
+		  color: #ffffff;
 		  font-weight: bold;
 		  width: 80px;
 		  cursor: default;
