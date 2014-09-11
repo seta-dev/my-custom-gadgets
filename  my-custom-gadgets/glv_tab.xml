@@ -73,7 +73,7 @@
            contentContainer: document.getElementById("three_id")
         });
 		
-		tabs.addTab("おわります", {
+		tabs.addTab("おわりました", {
            contentContainer: document.getElementById("four_id")
         });
 		
