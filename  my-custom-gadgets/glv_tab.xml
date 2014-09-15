@@ -69,11 +69,11 @@
            contentContainer: document.getElementById("two_id")
         });
 		
-		tabs.addTab("かわりました", {
+		tabs.addTab("はじめます", {
            contentContainer: document.getElementById("three_id")
         });
 		
-		tabs.addTab("おわりました", {
+		tabs.addTab("おわります", {
            contentContainer: document.getElementById("four_id")
         });
 		
