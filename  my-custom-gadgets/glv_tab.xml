@@ -90,18 +90,18 @@
     </script>
 
    <div id="two_id" style="display:none">
-		<iframe width="95%" height="320"  style="border:none;" src="https://g-win-document.appspot.com/gadget/news?tag=1"></iframe>
+		<iframe width="95%" height="310"  style="border:none;" src="https://g-win-document.appspot.com/gadget/news?tag=1"></iframe>
    </div>
    <div id="three_id" style="display:none">
-		<iframe width="95%" height="320" style="border:none;" src="https://g-win-document.appspot.com/gadget/news?tag=2"></iframe>
+		<iframe width="95%" height="310" style="border:none;" src="https://g-win-document.appspot.com/gadget/news?tag=2"></iframe>
    </div>
    
    <div id="four_id" style="display:none">
-		<iframe width="95%" height="320" style="border:none;" src="https://g-win-document.appspot.com/gadget/news?tag=3"></iframe>
+		<iframe width="95%" height="310" style="border:none;" src="https://g-win-document.appspot.com/gadget/news?tag=3"></iframe>
    </div>
    
    <div id="five_id" style="display:none">
-		<iframe width="95%" height="320" style="border:none;" src="https://g-win-document.appspot.com/gadget/news?tag=4"></iframe>
+		<iframe width="95%" height="310" style="border:none;" src="https://g-win-document.appspot.com/gadget/news?tag=4"></iframe>
    </div>
    
   ]]>
