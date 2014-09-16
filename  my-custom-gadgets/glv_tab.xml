@@ -69,11 +69,11 @@
            contentContainer: document.getElementById("one_id")
         });
 		
-        tabs.addTab("かわります", {
+        tabs.addTab("はじめます", {
            contentContainer: document.getElementById("two_id")
         });
 		
-		tabs.addTab("はじめます", {
+		tabs.addTab("かわります", {
            contentContainer: document.getElementById("three_id")
         });
 		
@@ -97,10 +97,10 @@
    </div>
    
    <div id="two_id" style="display:none">
-		<iframe width="95%" height="310"  style="border:none;" src="https://g-win-document.appspot.com/gadget/news?tag=1"></iframe>
+		<iframe width="95%" height="310"  style="border:none;" src="https://g-win-document.appspot.com/gadget/news?tag=2"></iframe>
    </div>
    <div id="three_id" style="display:none">
-		<iframe width="95%" height="310" style="border:none;" src="https://g-win-document.appspot.com/gadget/news?tag=2"></iframe>
+		<iframe width="95%" height="310" style="border:none;" src="https://g-win-document.appspot.com/gadget/news?tag=1"></iframe>
    </div>
    
    <div id="four_id" style="display:none">
