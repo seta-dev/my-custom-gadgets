@@ -65,6 +65,10 @@
         // Technique #2: Create the tab and define a corresponding <div> in the
         // HTML portion of the gadget. Add static content to the <div>.
 
+		tabs.addTab("トピックス", {
+           contentContainer: document.getElementById("one_id")
+        });
+		
         tabs.addTab("かわります", {
            contentContainer: document.getElementById("two_id")
         });
@@ -88,7 +92,10 @@
     // Call init function to initialize and display tabs.
     gadgets.util.registerOnLoadHandler(init);
     </script>
-
+	<div id="one_id" style="display:none">
+		<iframe width="95%" height="310"  style="border:none;" src="https://g-win-document.appspot.com/gadget/news?topic=1"></iframe>
+   </div>
+   
    <div id="two_id" style="display:none">
 		<iframe width="95%" height="310"  style="border:none;" src="https://g-win-document.appspot.com/gadget/news?tag=1"></iframe>
    </div>
